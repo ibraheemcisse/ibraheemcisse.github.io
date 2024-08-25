@@ -1,0 +1,122 @@
+/* consultation.css */
+
+/* Header Styles */
+header {
+    background-color: #ffc107;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 4px solid #ffca2c;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    margin-top: 0;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.consultation-form {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.consultation-form h2 {
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.btn-submit {
+    background-color: #ffc107;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #ffca2c;
+}
+
+/* Contact Info */
+.contact-info {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.contact-info h2 {
+    margin-bottom: 1rem;
+}
+
+.contact-info ul {
+    padding-left: 0;
+}
+
+.contact-info li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffc107;
+    color: white;
+}
+
+footer hr {
+    margin-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+footer small {
+    font-size: 0.8rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+
+    .consultation-form,
+    .contact-info {
+        width: 100%;
+    }
+}
